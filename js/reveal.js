@@ -1567,7 +1567,7 @@
 			layoutSlideContents( config.width, config.height, slidePadding );
 
 			dom.slides.style.width = size.width + 'px';
-			dom.slides.style.height = size.height + 'px';
+			dom.slides.style.minHeight = size.height + 'px';
 
 			// Determine scale of content to fit within available space
 			scale = Math.min( size.presentationWidth / size.width, size.presentationHeight / size.height );
